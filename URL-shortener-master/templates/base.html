@@ -12,8 +12,8 @@
 
 <body>
 
-    <div class="container-fluid">
-        <h1>Kaleyra URL Shortener</h1>
+    <div class="container-fluid" >
+        <h1 id="short">Kaleyra URL Shortener</h1>
         <hr>
         {% block content%}
         {% endblock %}
@@ -26,3 +26,11 @@
   </body>
 </body>
 </html>
+<style>
+    #short {
+    color: #1c7fd1
+}
+h1 {
+    text-align: center
+}
+</style>
